@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    color:#776e65;
+}
+
+p {
+    text-align:center;
+    font-weight:bold;
+}
+
+button {
+    display:block;
+    width: 120px;
+    background:#8f7a66;
+    color:white;
+    height: 40px;
+    line-height: 42px;
+    text-align:center;
+    border-radius:3px;
+    border:none;
+    cursor:pointer;
+}
+button:focus {
+    outline:none;
+}
+#container {
+    width: 200px;
+    margin:20px auto;
+}
+
+button {
+    margin:10px 0;
+}
+
+#left {
+    float:left;
+    line-height: 50px;
+    vertical-align:bottom;
+}
+#right {
+    float:right;
+}
